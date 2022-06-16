@@ -214,20 +214,20 @@ namespace PizzaHut.Migrations
                         new
                         {
                             ID = 101,
-                            Address = "#12/33 Jp Nagar 7th phase Putenahalli bangalore-560078",
-                            Name = "Ajith",
-                            Password = "Ajithama@19",
-                            Phone = "8971950713",
-                            UserID = "am9452197@gmail.com"
+                            Address = "#Neyveli",
+                            Name = "chandru",
+                            Password = "chandru2598",
+                            Phone = "9876543213",
+                            UserID = "chandru@gmail.com"
                         },
                         new
                         {
                             ID = 102,
-                            Address = "#113 Attibele sarjapura bangalore-56125",
-                            Name = "Lohit",
-                            Password = "Lohit@99",
-                            Phone = "8310085985",
-                            UserID = "lohit01091999@gmail.com"
+                            Address = "#demo",
+                            Name = "demo",
+                            Password = "demo",
+                            Phone = "9876543214",
+                            UserID = "Demo@gmail.com"
                         });
                 });
 

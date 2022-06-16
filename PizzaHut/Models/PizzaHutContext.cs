@@ -21,9 +21,9 @@ namespace PizzaHut.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
            modelBuilder.Entity<Users>().HasData(
-               new Users() {ID=101, Name = "Ajith", UserID = "am9452197@gmail.com", Password = "Ajithama@19", Phone = "8971950713", Address = "#12/33 Jp Nagar 7th phase Putenahalli bangalore-560078" },
+               new Users() {ID=101, Name = "chandru", UserID = "chandru@gmail.com", Password = "chandru2598", Phone = "9876543213", Address = "#Neyveli" },
 
-                new Users() {ID=102, Name = "Lohit", UserID = "lohit01091999@gmail.com", Password = "Lohit@99", Phone = "8310085985", Address = "#113 Attibele sarjapura bangalore-56125" }
+                new Users() {ID=102, Name = "demo", UserID = "Demo@gmail.com", Password = "demo", Phone = "9876543214", Address = "#demo" }
                );
             modelBuilder.Entity<Pizza>().HasData(
                new Pizza() {ID=1001,Name="Veg Loaded",Price=199,Speicality="with Pepse",Crust="Fresh Pan Pizza",Description= "Peppy Paneer Cheese Burst Topped with Extra Cheese",Images="/images/pizza-1.jpg"},

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PizzaHut.Migrations
 {
-    public partial class InitMigration : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -116,8 +116,8 @@ namespace PizzaHut.Migrations
                 columns: new[] { "ID", "Address", "Name", "Password", "Phone", "UserID" },
                 values: new object[,]
                 {
-                    { 101, "#12/33 Jp Nagar 7th phase Putenahalli bangalore-560078", "Ajith", "Ajithama@19", "8971950713", "am9452197@gmail.com" },
-                    { 102, "#113 Attibele sarjapura bangalore-56125", "Lohit", "Lohit@99", "8310085985", "lohit01091999@gmail.com" }
+                    { 101, "#Neyveli", "chandru", "chandru2598", "9876543213", "chandru@gmail.com" },
+                    { 102, "#demo", "demo", "demo", "9876543214", "Demo@gmail.com" }
                 });
 
             migrationBuilder.InsertData(

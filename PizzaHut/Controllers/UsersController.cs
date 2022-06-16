@@ -1,13 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Session;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PizzaHut.Models;
 using PizzaHut.Services;
 using System;
-using System.Text.RegularExpressions;
-using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
-using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace PizzaHut.Controllers
 {
